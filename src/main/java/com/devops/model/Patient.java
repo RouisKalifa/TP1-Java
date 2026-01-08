@@ -76,6 +76,12 @@ public class Patient {
         return !estDecede();
     }
 
+    @Override
+    public String toString() {
+        return prenom + " " + nom + " (vie=" + vie + ", age=" + age + ")";
+    }
+
+
 
 
 
